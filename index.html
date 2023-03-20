@@ -31,9 +31,11 @@
         <div id="main">
             <div class="container">
                 <div class="block">
-                    <h1>За один клик -<br>
-                        найдешь работу своей мечты
-                    </h1>
+                    <div class="block-head">
+                        <h1>За один клик -<br>
+                            найдешь работу своей мечты
+                        </h1>
+                    </div>
                     <div class="block-search">
                         <div class="search border">
                             <img src="src/icons/search.svg" alt="search">
@@ -66,7 +68,9 @@
         </div>
         <div id="categories">
             <div class="container">
-                <h1>Работа<br> по категориям</h1>
+                <div class="block-head">
+                    <h1>Работа<br> по категориям</h1>
+                </div>
                 <div class="categories">
                     <div class="blocks-categories">
                         <div class="block-categories">
@@ -90,8 +94,63 @@
                             <p>Образование</p>
                         </div>
                     </div>
-                    <button class="more-categories">
+                    <button class="more">
                         <p>Больше категорий</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="jobs">
+            <div class="container">
+                <div class="block-head">
+                    <h1>Новые вакансии</h1>
+                    <p>Найди работу своей мечты прямо сейчас</p>
+                </div>
+                <div class="jobs">
+                    <div class="blocks-jobs">
+                        <div class="block-jobs">
+                            <h1>Финансы</h1>
+                            <p>Менеджер 
+                                по управлению финансами в крупной компании
+                            </p>
+                            <div class="city">
+                                <img src="src/icons/union.svg" alt="union">
+                                <p>Москва</p>
+                            </div>
+                            <div class="company">
+                                <img src="src/icons/company/Ford.svg" alt="ford">
+                                <h1>Ford. 2 дня назад</h1>
+                            </div>
+                        </div>
+                        <div class="block-jobs">
+                            <h1>Грузоперевозки</h1>
+                            <p>Водитель на дальние дистанции</p>
+                            <div class="city">
+                                <img src="src/icons/union.svg" alt="union">
+                                <p>Санкт-Петербург</p>
+                            </div>
+                            <div class="company">
+                                <img src="src/icons/company/Coca.svg" alt="ford">
+                                <h1>CocaCola. 1 дня назад</h1>
+                            </div>
+                        </div>
+                        <div class="block-jobs">
+                            <h1>Дизайн</h1>
+                            <p>Дизайнер интерьера в профессиональную
+                                 студию в центре города
+                            </p>
+                            <div class="city">
+                                <img src="src/icons/union.svg" alt="union">
+                                <p>Москва</p>
+                            </div>
+                            <div class="company">
+                                <img src="src/icons/company/Netflix.svg" alt="ford">
+                                <h1>Netflix. 4 дня назад</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="more">
+                        <p>Больше вакансий</p>
                     </button>
                 </div>
             </div>
@@ -99,7 +158,18 @@
     </section>
     <footer>
         <div class="container">
-
+            <div class="cities">
+                <p>Популярные города</p>
+                    <ul class="city">
+                        <li><p>Москва</p></li> 
+                        <li><p>Санкт-Петербург</p></li>
+                        <li><p>Кострома</p></li>
+                        <li><p>Екатеринбург</p></li>
+                        <li><p>Н. Новгород</p></li>
+                        <li><p>Ярославль</p></li>
+                    </ul>
+                
+            </div>
         </div>
     </footer>
 </body>
