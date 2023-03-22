@@ -1,0 +1,13 @@
+@media screen and (max-width: 1350px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    #main > .container{
+        flex-direction: column-reverse;
+    }
+
+    .block {
+        padding: 20px 0 204px 0;
+    }
+}
