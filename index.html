@@ -9,7 +9,19 @@
     <link rel="stylesheet" href="src/adaptive.css">
 </head>
 <body>
+    
     <header>
+        <div class="registration">
+            <div class="modal-registration">
+                <input type="text" placeholder="Фамилия">
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Отчество">
+                <input type="date" placeholder="Дата рождения">
+                <input type="text" placeholder="Город">
+                <button class="btn-registration"><p>Регистрация</p></button>
+            </div>
+        </div>
+        
         <div class="container">
             <div class="logo">
                 <h1>Working</h1>
@@ -22,7 +34,7 @@
                     </ul>
                 </div>
                 <div class="block-account">
-                    <a href="#"><p>Регистрация</p></a>
+                    <a class="reg" href="#"><p>Регистрация</p></a>
                     <button class="login"><h1>Вход</h1></button>
                 </div>
             </div>
@@ -123,7 +135,7 @@
                             </div>
                             <div class="company">
                                 <img src="src/icons/company/Ford.svg" alt="ford">
-                                <h1>Ford. 2 дня назад</h1>
+                                <p>Ford. 2 дня назад</p>
                             </div>
                         </div>
                         <div class="block-jobs">
@@ -138,7 +150,7 @@
                             </div>
                             <div class="company">
                                 <img src="src/icons/company/Coca.svg" alt="ford">
-                                <h1>CocaCola. 1 дня назад</h1>
+                                <p>CocaCola. 1 дня назад</p>
                             </div>
                         </div>
                         <div class="block-jobs">
@@ -155,7 +167,7 @@
                             </div>
                             <div class="company">
                                 <img src="src/icons/company/Netflix.svg" alt="ford">
-                                <h1>Netflix. 4 дня назад</h1>
+                                <p>Netflix. 4 дня назад</p>
                             </div>
                         </div>
                     </div>
@@ -193,5 +205,6 @@
             
         </div>
     </footer>
+    <script src="src/script.js"></script>
 </body>
 </html>

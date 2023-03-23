@@ -15,6 +15,60 @@ body{
     --font-p: 'Raleway', sans-serif;
 }
 
+.registration{
+    display: none   ;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.open{
+    display: flex;
+}
+
+.modal-registration{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 70px 55px 55px 50px;
+    background: #E9F8F7;
+    border-radius: 50px;
+    box-shadow: 12px 5px 29px 5px #87a9a9;
+}
+
+.modal-registration > input{
+    padding: 18px;
+    border-radius: 50px;
+    margin-bottom: 19px;
+    font-family: var(--font-p);
+    font-size: 24px;
+}
+
+.btn-registration{
+    background: white;
+    padding: 23px 56px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 12px 5px 29px 5px #a9c5c3;
+    cursor: pointer;
+}
+
+.btn-registration:hover{
+    box-shadow: 12px 5px 19px 3px #96afad;
+}
+
+.btn-registration:active{
+    background-color: rgba(132, 178, 176, 1);   
+    box-shadow: none;
+}
+
+.btn-registration > p{
+    font-size: 24px;
+    font-weight: 600;
+}
+
 header .container{
     height: 130px;
     justify-content: space-between;
@@ -55,8 +109,17 @@ header .container .logo{
     background-color: white;
     padding: 10px 15px;
     border-radius: 50px;
-    box-shadow: 0px 5px 2px #b0cdcb;
+    box-shadow: 0px 5px 4px #bcdad8;
     cursor: pointer;
+}
+
+.login:hover{
+    box-shadow: 0px 6px 4px #97afae;
+}
+
+.login:active{
+    background-color: rgba(132, 178, 176, 1);   
+    box-shadow: none;
 }
 
 .header-items{
@@ -190,6 +253,10 @@ input:focus{
     cursor: pointer;
 }
 
+.block-categories > p{
+    font-size: 20px;
+}
+
 .block-categories > img {
     position: absolute;
     left: 30px;
@@ -204,6 +271,10 @@ input:focus{
     margin: 78px 0 0 0;
     box-shadow: 20px 11px 70px rgba(0, 0, 0, 0.34);
     cursor: pointer;
+}
+
+.more >p{
+    font-size: 20px;
 }
 
 .categories{
